@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "hardikverma3044/mr-react-app"
+        DOCKER_IMAGE = "hardikverma3044/my-react-app"
         CONTAINER_NAME = "goofy_leaderberg"
         DEPLOY_PORT = "3000"
     }
